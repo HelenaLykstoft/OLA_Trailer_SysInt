@@ -59,20 +59,20 @@ If it is a long term trailer rent, then the whole process is sent to the externa
 
 This is an external system, that we dont have to account for. This model shows the long term renter searching for long term packages, then the packages is listed together with the trailer locations.
 
-### Payment systems
-After this, we have two different payment systems: The trailer return late fee system and the trailer payment system for advertisement. 
 
-#### Late fee system
+After this, we have two different external processes: The trailer return process and the advertising process. 
+
+#### Return process
 The first payment system, the trailer return late fee system, is if the trailer renter havent returned the trailer in time, then a late fee is added. 
 
 ![alttxt](Images/TrailerReturnLatefeeSystem.png)
 
 This image shows the renter returning the trailer, and the system checking if it is returned late. If it has been returned too late, the late fee is added and the fee is withdrawn from the customer, and then the process continues. Otherwise, the process just continues, and the trailer is returned as usual and the confirmation gets sent to the customer.
 
-#### Payment system for advertisement
+#### Advertising process
 Through a partnership with the businesses/locations that store our trailers, we offer custom advertisements on the trailers (logos, text, etc.). When customers rent our trailers at these locations (e.g., at Jem & Fix, Fog, or Q8), the trailers function as mobile billboards for their businesses. They pay us for the advertisements, and in return, we are allowed to park our trailers on their premises free of charge. This process demonstrates how this is achieved through event storming.
 
 ![alttxt](Images/TrailerPaymentSystemForAdvertisement.png)
 
-The images shows the trailer location customers ( for example Fog ), that stores the trailers, and then the system makes custom advertisements for the trailers at the locations. The locations/customers ( Fog ) then pays for the advertisements, and the payment is provided to the system.
+The images shows the business partners ( for example Fog ), that stores the trailers, and then the system makes custom advertisements for the trailers at the locations. The business partners then pays for the advertisements, and the payment is provided to the system.
 
