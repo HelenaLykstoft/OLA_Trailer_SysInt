@@ -70,7 +70,7 @@ The first payment system, the trailer return late fee system, is if the trailer 
 This image shows the renter returning the trailer, and the system checking if it is returned late. If it has been returned too late, the late fee is added and the fee is withdrawn from the customer, and then the process continues. Otherwise, the process just continues, and the trailer is returned as usual and the confirmation gets sent to the customer.
 
 #### Payment system for advertisement
-Through a partnership with the businesses/locations that store our trailers, we offer custom advertisements on the trailers (logos, text, etc.). When customers rent our trailers at these locations (e.g., at Jem & Fix, Fog, or Q8), the trailers function as mobile billboards for their businesses. They pay us for the advertisements, and in return, we are allowed to park our trailers on their premises free of charge. This process demonstrates how this is achieved through event storming.```
+Through a partnership with the businesses/locations that store our trailers, we offer custom advertisements on the trailers (logos, text, etc.). When customers rent our trailers at these locations (e.g., at Jem & Fix, Fog, or Q8), the trailers function as mobile billboards for their businesses. They pay us for the advertisements, and in return, we are allowed to park our trailers on their premises free of charge. This process demonstrates how this is achieved through event storming.
 
 ![alttxt](Images/TrailerPaymentSystemForAdvertisement.png)
 
