@@ -15,7 +15,7 @@ First, we want to explain the color codes we have made:
 - Purple: policy. This is a rule that the system follows
 - Yellow: actor. This is the actor of the system
 - Red: possible problems. This is the possible problems that can happen in the system
-- Beige: aggregate
+- Beige: aggregate. This defines a 'has-a' relationship between two classes, where one object contains one or more other objects.
 - Green: opportunities. This is the possible changes that can happen in the system
 - Pink: external systems. This is made to show the user that the part of the system were looking at, could be/is an external system
 
