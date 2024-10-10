@@ -22,11 +22,11 @@ First, we want to explain the color codes we have made:
 ### Trailer processes
 The first 5 images, is part of the processes that happens when a user wants to rent a trailer.
 We have split it into these categories:
-- Booking of trailer
+- Renting of trailer
 - Checkout process
-- Long term booking process
+- Long term renting process
 
-#### Booking of trailer
+#### Renting of trailer
 The first diagram is the first part of the interaction, from when the user wants to rent a trailer, to where the user clicks on a trailer with a location
 
 ![alttxt](Images/TrailerManagementSystem.png)
@@ -52,8 +52,8 @@ The fourth diagram is the fourth part of the interaction, after the payment proc
 
 This diagram shows the finalizement of the payment process. In this case, we have a opportunity. The user is getting offered to insure the trailer, and if the user accepts, the trailer is insured and the process proceeds. If he doesnt accept, then the process just proceeds without insurance. The rent information is sent to the trailer location, and then the confirmation gets sent. After that, the trailer is rented.
 
-#### Long term booking process
-If it is a long term trailer rent, then the whole process is sent to the external long term booking system, as shown below:
+#### Long term renting process
+If it is a long term trailer rent, then the whole process is sent to the external long term renting system, as shown below:
 
 ![alttxt](Images/ExternalTrailerLongtermBooking.png)
 
