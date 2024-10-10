@@ -1,5 +1,6 @@
 # OLA_Trailer_SysInt
 
+[watch our event storming explainer video here](https://youtu.be/2Ff2-z6qeXQ)
 
 ## Event diagram explanation
 This is our documentation for our event diagram. 
